@@ -1,0 +1,18 @@
+{
+  "name": "homework-for-lesson-7.2.-node",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Dmitry Makarov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "prettier": "^3.8.0"
+  }
+}

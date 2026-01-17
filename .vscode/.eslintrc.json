@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "no-multi-spaces": "error", // Запрещает множественные пробелы
+    "indent": [
+      "error",
+      2
+    ], // Правило для отступов (два пробела)
+    "semi": [
+      "error",
+      "always"
+    ], // Обязательная точка с запятой
+    "quotes": [
+      "error",
+      "double"
+    ] // Строгие правила для кавычек
+  }
+}
