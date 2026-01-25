@@ -4,21 +4,12 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Debug index.js",
             "program": "${workspaceFolder}/index.js",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "console": "integratedTerminal"
-        },
-        {
-            "name": "Attach",
-            "port": 9229,
-            "request": "attach",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
         }
     ]
 }

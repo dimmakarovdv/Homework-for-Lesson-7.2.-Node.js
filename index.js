@@ -4,7 +4,8 @@ const func = () => {
   let y = 20;
 
   console.log(sum(x, y)); // 30
-  debugger; // Точка останова
+  // eslint-disable-next-line no-debugger
+  debugger;
   x = 20;
   y = 30;
 
