@@ -3,7 +3,7 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "eslint.experimental.useFlatConfig": true,
-    "files.eol": "\n",
+    "eslint.useFlatConfig": true,
+    "files.eol": "auto",
     "prettier.endOfLine": "auto"
 }
